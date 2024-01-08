@@ -50,7 +50,9 @@ docker-compose up
 
 ```bash
 npm run setup:dev
+
 npm run build:public 
+
 npm run start:both
 ```
 
