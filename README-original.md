@@ -34,6 +34,9 @@ cp .env.template .env
 docker-compose up
 ```
 
+
+
+
 4. Open up an additional console and then run:
 
 ```bash
