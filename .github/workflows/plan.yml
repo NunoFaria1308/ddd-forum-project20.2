@@ -33,6 +33,11 @@ jobs:
      
       - name: Setup dev
         run: npm run setup:dev
+        
+      - name: Setup public
+        run: |
+          export CI=false
+          npm run build:public
      
       - name: start backend
         run: npm run start:dev &
