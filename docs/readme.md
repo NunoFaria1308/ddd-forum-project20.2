@@ -1,4 +1,7 @@
-# Switch-QA Project for the 1st Semester 2023
+# Switch-QA project (extra work)
+### Student: Nuno Faria
+### Email: 1222650@isep.ipp.pt
+### github: https://github.com/NunoFaria1308
 
 ## How to generate the svg files
 
@@ -19,13 +22,8 @@ The team consists of students identified in the following table.
 
 | Student Number | Name              |
 |----------------|-------------------|
-| **1XXXXXX**    | Name of student 1 |
-| **1XXXXXX**    | Name of student 2 |
-| **1XXXXXX**    | Name of student 3 |
-| **1XXXXXX**    | Name of student 4 |
-| **1XXXXXX**    | Name of student 5 |
-| **1XXXXXX**    | Name of student 6 |
-| **1XXXXXX**    | Name of student 7 |
+| **1222650**    | Nuno Faria |
+
 
 ## 2. Task Distribution
 
@@ -36,8 +34,8 @@ was carried out as described in the following table.
 
 | Task                        | [Sprint A](sprintA/readme.md)                                                              | [Sprint B](sprintB/readme.md)                                                              |
 |-----------------------------|--------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------|
-| Architecture                | [all](sprintA/global-artifacts/00.architecture/architecture.md)                            | [all](sprintB/global-artifacts/00.architecture/architecture.md)                    |
-| Glossary                    | [all](sprintA/global-artifacts/01.requirements-engineering/glossary.md)                    | [all](sprintB/global-artifacts/00.engineering-requirements/glossary.md)                    |
+| Architecture             | [Architecture  ](sprintA/global-artifacts/00.architecture/architecture.md)                            | [all](sprintB/global-artifacts/00.architecture/architecture.md)                    |
+| Glossary                    | [Glossary ](sprintA/global-artifacts/01.requirements-engineering/glossary.md)                    | [all](sprintB/global-artifacts/00.engineering-requirements/glossary.md)                    |
 | Use Case Diagram (UCD)      | [all](sprintA/global-artifacts/01.requirements-engineering/use-case-diagram.md)            | [all](sprintB/global-artifacts/00.engineering-requirements/use-case-diagram.md)            |
 | Supplementary Specification | [all](sprintA/global-artifacts/01.requirements-engineering/supplementary-specification.md) | [all](sprintB/global-artifacts/00.engineering-requirements/supplementary-specification.md) |
 | US 001 (SDP Activities)     | [1XXXXXX](sprintA/us006/readme.md)                                                         |                                                                                            |
@@ -45,7 +43,7 @@ was carried out as described in the following table.
 
 ## 3. Sprints
 
-**Project:** DDD Forum ISEP
+**Project:** DDD Forum 
 
 ### 3.1 Sprint A
 

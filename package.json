@@ -17,6 +17,7 @@
     "migrate:test": "npm run build && cross-env NODE_ENV=test dotenv -e .env sequelize db:migrate --env test",
     "migrate:prod": "sequelize db:migrate --env production",
     "setup:dev": "npm install && npm run db:create:dev && npm run migrate:dev",
+    "db:dev": "npm run db:delete:dev && npm run db:create:dev && npm run migrate:dev",
     "start:dev": "cross-env NODE_ENV=development nodemon",
     "start:both": "concurrently --kill-others-on-fail \"npm run start:dev\" \"npm run  start:public\"",
     "prestart": "npm run migrate:prod",
@@ -24,7 +25,8 @@
     "test": "jest",
     "test:dev": "jest --watchAll",
     "testWithCoverage": "jest --coverage --coverageReporters=\"text\" --coverageReporters=\"html\" --coverageReporters=\"json\"",
-    "test:api": "npm run db:delete:dev && npm run db:create:dev && npm run migrate:dev && jest --coverage --coverageReporters=\"html\" --runInBand --testPathPattern=api"
+    "test:api": "npm run db:delete:dev && npm run db:create:dev && npm run migrate:dev && jest --coverage --coverageReporters=\"html\" --runInBand --testPathPattern=api",
+    "test:api:us001": "npm run db:delete:dev && npm run db:create:dev && npm run migrate:dev && jest --coverage --coverageReporters=\"text\" --coverageReporters=\"html\" --coverageReporters=\"json\" --runInBand --testPathPattern=api_test/us001"
   },
   "husky": {
     "hooks": {
