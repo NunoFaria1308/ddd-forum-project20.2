@@ -17,7 +17,7 @@ jobs:
  
       - uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 20.9.0
 
       - name: Check Node
         run: node --version
@@ -33,17 +33,12 @@ jobs:
      
       - name: Setup dev
         run: npm run setup:dev
-        
-      - name: Setup public
-        run: |
-          export CI=false
-          npm run build:public
      
       - name: start backend
         run: npm run start:dev &
      
       - name: start frontend
-        run: BROWSER=none npm run start:public &
+        run:  npm run start:public &
      
       - name: Wait a little
         run: sleep 10
